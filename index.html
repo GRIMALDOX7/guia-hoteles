@@ -1,19 +1,69 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <!--Jquery sirve para el funcionamiento de los componentes de bootstrap, como el modal, el dropdown, etc. Sin jquery, estos componentes no funcionarían correctamente. -->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <!-- el popper.js es una librería que se utiliza para posicionar elementos emergentes, como los tooltips y los dropdowns, de manera correcta en la página. Bootstrap utiliza popper.js para asegurarse de que estos elementos se posicionen correctamente en relación con el elemento al que están asociados. -->
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <!-- el bootstrap.js es el archivo principal de JavaScript de Bootstrap, que contiene el código necesario para que los componentes de Bootstrap funcionen correctamente. Este archivo depende de jQuery y popper.js, por lo que es importante incluirlos antes de incluir bootstrap.js. -->
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Hello, world!</h1>
+  <!--Jquery sirve para el funcionamiento de los componentes de bootstrap, como el modal, el dropdown, etc. Sin jquery, estos componentes no funcionarían correctamente. -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <!-- el popper.js es una librería que se utiliza para posicionar elementos emergentes, como los tooltips y los dropdowns, de manera correcta en la página. Bootstrap utiliza popper.js para asegurarse de que estos elementos se posicionen correctamente en relación con el elemento al que están asociados. -->
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <!-- el bootstrap.js es el archivo principal de JavaScript de Bootstrap, que contiene el código necesario para que los componentes de Bootstrap funcionen correctamente. Este archivo depende de jQuery y popper.js, por lo que es importante incluirlos antes de incluir bootstrap.js. -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <button class="btn btn-primary btn-lg">Hoteles</button>
+  <div class="container-fluid py-5">
+    <div class="row">
+      <div class="col">
+        <p>Hotel</p>
+      </div>
+        <div class="col">
+          <p>Habitaciones</p>
+        </div>
+        <div class="col">
+          <p>Costo</p>
+        </div>
+    </div>
+    <div class = "row">
+      <div class = "col">
+        <p>Hotel 1</p>
+      </div>
+      <div class = "col">
+        <p>1</p>
+      </div>
+      <div class = "col">
+        <p>$1</p>
+      </div>
+    </div>
+    <div class = "row">
+      <div class = "col">
+        <p>Hotel 2</p>
+      </div>
+      <div class = "col">
+        <p>2</p>
+      </div>
+      <div class = "col">
+        <p>$2</p>
+      </div>
+    </div>
+    <div class = "row">
+      <div class = "col">
+        <p>Hotel 3</p>
+      </div>
+      <div class = "col">
+        <p>3</p>
+      </div>
+      <div class = "col">
+        <p>$3</p>
+      </div>
+    </div>
     
-  </body>
+  </div>
+</body>
+
 </html>
